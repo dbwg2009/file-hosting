@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2025-09-03T23:35:56Z" cacheDuration="PT604800S" entityID="https://mcspea.dbwg2009.uk">
+  <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDbDCCAlSgAwIBAgIBADANBgkqhkiG9w0BAQsFADBPMQswCQYDVQQGEwJVUzEMMAoGA1UECAwDTi9BMQwwCgYDVQQHDANOL0ExETAPBgNVBAoMCFNuaXBlLUlUMREwDwYDVQQDDAhTbmlwZS1JVDAeFw0yNTA5MDEyMzM1MDdaFw0zNTA4MzAyMzM1MDdaME8xCzAJBgNVBAYTAlVTMQwwCgYDVQQIDANOL0ExDDAKBgNVBAcMA04vQTERMA8GA1UECgwIU25pcGUtSVQxETAPBgNVBAMMCFNuaXBlLUlUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk1EeS9lRICHjYV9IhR/XbIBj/5CFCTzYgGB2U6nxtm7nMPjmOdZEFds03aa+eHRXx5OTUvA1My+iGsKf8JNuqyqZ9OBWHWC8kDqUKrSJgdgF5270bs/1MVCIVfVVKsdRMX3olLNkVQG65eUUq+9mSb6UUtX4Uay6e5Wrh5UJSvsNmRt0qHh2TvdCejUqR9ijm2xWhn2uvgaCwkPtGcEk1yW/qX4MV4e+DbyY6NARM0VtNM4l77oULkm4+Nu1GEfBOaQo87u41Iz5NgLobMr3Ild9m79kT0gx/XmMqF0DGLrlmYQrWAGHY6hr7CRox9gi/qGMCRefNHtFihy8nzd7HQIDAQABo1MwUTAdBgNVHQ4EFgQU9tlm2jL8DZR79CGnx9vFJs3Kfk8wHwYDVR0jBBgwFoAU9tlm2jL8DZR79CGnx9vFJs3Kfk8wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAaXATDqBODv3czr/CgMiJdjO7itzbPB9P0EnJxIKbWc0q/OWaVnwLA3/0mdteU7oNEj5DmmkoxVUNAO1N8GqknfY40ANgSMjfzBwLaEnKZSt51PG0KFNScZybi5SvMJ2fK14epVJo+aVVLgiAgGcrlt8UatcnkkuUBlmR4fsKkHVSGPI5+WJJouV4Cq/2Y+cGIWsxql1+86gcFedvbCf0C9LF8WPDZeurKOyS2cIoZ2mS3zakaDJ+w6jhIjEmanAa+Dtyuwtjw06lwo0bn251ce/wD7IgY+NClQV5zs7uqsgN6V84Ftnytd+3FQGgHyUcmSloLhbtK0fAw4XuL2EK9w==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://mcspea.dbwg2009.uk/saml/sls"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://mcspea.dbwg2009.uk/saml/acs" index="1"/>
+  </md:SPSSODescriptor>
+</md:EntityDescriptor>
