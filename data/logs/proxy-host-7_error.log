@@ -1,0 +1,1 @@
+2025/09/07 13:28:15 [error] 210#210: *254 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.1.254, server: home.dbwg2009.uk, request: "GET / HTTP/1.1", upstream: "http://192.168.1.40:8123/", host: "home.dbwg2009.uk"
